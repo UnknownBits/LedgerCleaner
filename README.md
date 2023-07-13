@@ -1,5 +1,7 @@
 # LedgerCleaner
-一个MCDR插件，可用于清理与释放ledger数据库(ledger.sqlite)
+一个MCDReforged插件，可用于清理与释放ledger数据库(ledger.sqlite)
+
+需要MCDReforged版本2.6及以上
 
 ## 指令
 
