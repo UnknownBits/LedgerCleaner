@@ -9,5 +9,8 @@
 	"author": [
 		"tanh_Heng"
 	],
-	"link": ""
+	"link": "https://github.com/tanhHeng/LedgerCleaner",
+	"dependencies": {
+        "mcdreforged": ">=2.6.0"
+    }
 }
