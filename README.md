@@ -1,5 +1,5 @@
 # LedgerCleaner
-一个MCDReforged插件，可用于清理与释放ledger数据库(ledger.sqlite)
+一个MCDReforged插件，可用于**清理**与**释放**ledger数据库(ledger.sqlite)
 
 需要MCDReforged版本2.6及以上
 
@@ -15,7 +15,7 @@
 
 - `!!ledger clean <date>` 准备清理数据库
 
-  若未指定\<date>，则会自动清理`reserved_days`天前的数据(即保留最近`reserved_days`天的数据)
+  若未指定\<date>，则会自动清理配置文件中`reserved_days`天前的数据(即保留最近`reserved_days`天的数据)
 
   *只会清理Actions(行为)表中的数据*
 
@@ -23,7 +23,7 @@
 
 - `!!ledger free` 释放空数据的硬盘空间
 
-  sqlite删除数据后，将会把此部分空间预留给后续的数据，而所占硬盘空间不变。此指令可这部分的硬盘空间。
+  sqlite删除数据后，将会把此部分空间预留给后续的数据，而所占硬盘空间不变。此指令可释放这部分的硬盘空间。
 
   *耗时较长，原理参见sqlite vacuum指令*
 
