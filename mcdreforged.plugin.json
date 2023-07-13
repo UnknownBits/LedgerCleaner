@@ -1,0 +1,13 @@
+{
+	"id": "ledger_cleaner",
+	"version": "0.1.0",
+	"name": "Ledger Cleaner",
+	"description": {
+		"en_us": "Clean and free ledger.sqlite",
+		"zh_cn": "清理与释放ledger数据库"
+	},
+	"author": [
+		"tanh_Heng"
+	],
+	"link": ""
+}
