@@ -6,10 +6,8 @@
 		"en_us": "Clean and free ledger.sqlite",
 		"zh_cn": "清理与释放ledger数据库"
 	},
-	"author": [
-		"tanh_Heng"
-	],
-	"link": "https://github.com/tanhHeng/LedgerCleaner",
+	"author": ["UnknownBits","tanh_Heng"],
+	"link": "https://github.com/UnknownBits/LedgerCleaner",
 	"dependencies": {
         "mcdreforged": ">=2.6.0"
     }
