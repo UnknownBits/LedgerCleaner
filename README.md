@@ -43,6 +43,9 @@
 
 - `!!ledger free` **耗时较长**
 
+## 效果
+
+![example](./ledgercleaner.png)
 - **请勿**在未clean/free完成时卸载插件，可能会导致错误
 
   *(虽然一般问题不大)*
